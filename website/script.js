@@ -5,8 +5,13 @@ const menuToggle = document.querySelector("[data-menu-toggle]");
 const nav = document.querySelector("[data-nav]");
 const cursor = document.querySelector(".cursor");
 const cursorRing = document.querySelector(".cursor-ring");
+const year = document.querySelector("#year");
 
 document.documentElement.classList.add("has-reveal");
+
+if (year) {
+  year.textContent = String(new Date().getFullYear());
+}
 
 if (particles) {
   for (let i = 0; i < 34; i += 1) {
