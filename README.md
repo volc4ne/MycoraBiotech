@@ -1,9 +1,8 @@
 # MycoraBiotech
 
-This repository contains the Mycora website project in `website/`.
+This repository contains the Mycora website project in `docs/`.
 
 ## Website
 
-- Entry point: `website/index.html`
-- Assets: `website/assets/`
-
+- Entry point: `docs/index.html`
+- Assets: `docs/assets/`
